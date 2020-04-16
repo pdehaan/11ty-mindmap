@@ -1,0 +1,10 @@
+---
+title: HOME
+layout: layouts/base.njk
+---
+
+<ul>
+  {% for mindmap in collections.mindmap %}
+  <li><a href="{{ mindmap.url | url }}">{{ mindmap.data.title }}</a></li>
+  {% endfor %}
+</ul>
