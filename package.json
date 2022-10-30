@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0-beta.3",
+    "@11ty/eleventy": "^1.0.2",
     "del": "^5.1.0",
     "markmap-lib": "^0.5.1"
   },
